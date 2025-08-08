@@ -227,7 +227,11 @@ if (!function_exists('ketchup_excerpt_by_id')):
                                    $line_breaks = TRUE)
     {
         $the_post = get_post($post_id); //Gets post ID
-        $the_excerpt = $the_post->post_excerpt ? $the_post->post_excerpt : $the_post->post_content; //Gets post_excerpt or post_content to be used as a basis for the excerpt
+        if ( empty( $the_post ) ) {
+            $the_excerpt = '';
+        } else {
+            $the_excerpt = $the_post->post_excerpt ? $the_post->post_excerpt : $the_post->post_content; //Gets post_excerpt or post_content to be used as a basis for the excerpt
+        }
         $the_excerpt = apply_filters('the_excerpt', $the_excerpt);
         $the_excerpt = $line_breaks ? strip_tags(strip_shortcodes($the_excerpt), '<p><br>') : strip_tags(strip_shortcodes($the_excerpt)); //Strips tags and images
         $words = explode(' ', $the_excerpt, $excerpt_length + 1);
