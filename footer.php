@@ -42,11 +42,10 @@
                 <?php if (has_nav_menu('footer')): ?>
                     <div class="col-md-12 clearfix">
                         <?php
-                        $restaurante_menu_args = array(
+                        wp_nav_menu(array(
                             'theme_location' => 'footer',
                             'container' => false,
-                            'menu_id' => 'kt-footer-navigation');
-                        wp_nav_menu($restaurante_menu_args);
+                            'menu_id' => 'kt-footer-navigation'));
                         ?>
 
                     </div>
