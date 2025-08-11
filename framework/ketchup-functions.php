@@ -500,7 +500,7 @@ if (!function_exists('restaurante_og_tags')):
 
             $html .= '<meta property="og:type" content="article"/>' . PHP_EOL;
 
-            if ($featured_image[0] != ''):
+            if ( ! empty( $featured_image ) && $featured_image[0] != ''):
 
                 /** Featured Image og sizes **/
                 $image_width = $featured_image[1];

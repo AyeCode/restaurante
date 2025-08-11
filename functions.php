@@ -1,9 +1,8 @@
 <?php
-/**==================== =
- * Main Functions file.
- * Please be careful when
- * editing.
- *===================== */
+/**
+ * The theme version.
+ */
+define( 'RESTAURANTE_THEME_VERSION', wp_get_theme()->get( 'Version' ) );
 
 /**=== Setup Theme == **/
 
@@ -353,12 +352,12 @@ function restaurante_upsell_notice(){
         'prefix-customizer-upsell',
         'prefixL10n',
         array(
-            'prefixURL' => esc_url('http://ketchupthemes.com/restaurante-theme'),
+            'prefixURL' => esc_url('https://ayecode.io'),
             'prefixLabel' => __('Upgrade To Premium', 'restaurante') ,
             'paragraphText'=>__('Features Marked As Pro, Are Available In The Premium Version Only!!!','restaurante'),
             'premiumSpanTxt'=>__('- OR CHECK -','restaurante'),
             'premiumDemoTxt'=>__('Premium Demo','restaurante'),
-            'premiumDemoUrl'=>esc_url('http://ketchupthemes.com/themes-demo/?theme=Restaurante')
+            'premiumDemoUrl'=>esc_url('https://ayecode.io')
         )
     );
 
