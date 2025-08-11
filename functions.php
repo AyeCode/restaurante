@@ -367,6 +367,25 @@ add_action('customize_controls_enqueue_scripts', 'restaurante_upsell_notice');
 
 /**=====================
  * Requires
- *==================== */
- require_once(get_template_directory().'/framework/ketchup-functions.php');
- require_once(get_template_directory().'/framework/libs/class-tgm-plugin-activation.php'); ?>
+ *======================
+ */
+require_once(get_template_directory().'/framework/ketchup-functions.php');
+require_once(get_template_directory().'/framework/libs/class-tgm-plugin-activation.php');
+
+if ( ! function_exists( 'wp_body_open' ) ) {
+	/**
+	 * Fire the wp_body_open action.
+	 *
+	 * Added for backward compatibility to support pre-5.2.0 WordPress versions.
+	 *
+	 * @since 3.1.1
+	 */
+	function wp_body_open() {
+		/**
+		 * Triggered after the opening <body> tag.
+		 *
+		 * @since 3.1.1
+		 */
+		do_action( 'wp_body_open' );
+	}
+}

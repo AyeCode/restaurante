@@ -3,7 +3,7 @@ Contributors: ayecode, stiofansisland
 Requires at least: 5.0
 Tested up to: 6.8
 Requires PHP: 7.2
-Stable tag: 3.1.0
+Stable tag: 3.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -34,14 +34,8 @@ Resources packed within the theme.
 * Other custom js files are our own creation and is licensed under the same license as this theme.
 
 About Images in demo --
-
-http://splitshire.com/wp-content/uploads/2014/12/SplitShire-6904.jpg -- Licensed under CC0
-http://splitshire.com/wp-content/uploads/2014/01/SplitShire_IMG_5232.jpg -- Licensed under CC0
-http://splitshire.com/wp-content/uploads/2014/06/SplitShire_IMG_5928.jpg -- Licensed under CC0
 http://www.lifeofpix.com/wp-content/uploads/2015/07/Life-of-Pix-free-stock-photos-still-life
 -pear-szolkin.jpg -- Licensed under CC0
-https://pixabay.com/en/vegetarian-bakery-food-snack-774860/ -- Licensed under CC0
-https://pixabay.com/en/strawberry-cake-cake-after-594170/ -- Licensed under CC0
 
 All other resources and theme elements are licensed under the [GNU GPL](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html), version 2 or later.
 
@@ -63,6 +57,9 @@ the PoEdit software to translate the theme.
 Twitter Bootstrap customize ID : http://getbootstrap.com/customize/?id=f67b423786534a5c0843
 
 == Changelog ==
+
+= 3.1.1 - 2025-08-11 =
+* Theme Check compatibility - CHANGED
 
 = 3.1.0 - 2025-08-11 =
 * XSS vulnerability fix - SECURITY

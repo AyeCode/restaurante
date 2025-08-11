@@ -23,6 +23,7 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?> <?php echo restaurante_body_schema(); ?>>
+<?php wp_body_open(); ?>
 <div class="site-loader"></div>
 <header id="masthead" class="site-header clearfix">
 <?php $id = strip_tags(restaurante_has_header()); ?>
@@ -39,14 +40,13 @@
                          id="kt-main-navigation">
 
                         <?php
-                        $restaurante_menu_args = array(
+                        wp_nav_menu(array(
                             'theme_location' => 'main',
                             'fallback_cb' => 'restaurante_restaurant_fallback_menu',
                             'container' => false,
                             'menu_id' => 'kt-navigation',
                             'menu_class' => 'fixed-nav',
-                            'echo' => true);
-                        wp_nav_menu($restaurante_menu_args);
+                            'echo' => true));
                         ?>
                     </nav>
                 </div>
