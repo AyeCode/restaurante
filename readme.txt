@@ -1,8 +1,17 @@
-== Restaurante Theme  ==
+=== Restaurante Theme ===
+Contributors: ayecode, stiofansisland
+Requires at least: 5.0
+Tested up to: 6.8
+Requires PHP: 7.2
+Stable tag: 3.1.0
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Restaurante WordPress Theme is mainly targeted for restaurants, barbecues, grill houses, Italian restaurants, fast food, pizzerias and more.
 
 == Description ==
 
-Restaurante is a lightweight responsive bootstrap theme for restaurants, barbecues, grill houses, italian restaurants, fast food, pizzerias and more. Features include option to upload your own favicon, customizable background, header & shortcodes. Last but not least it implements microdata, opengraph & twitter cards in order to have the best visibility on search engines and social media.
+Restaurante is a lightweight responsive bootstrap theme for restaurants, barbecues, grill houses, Italian restaurants, fast food, pizzerias and more. Features include option to upload your own favicon, customizable background, header & shortcodes. Last but not least it implements microdata, opengraph & twitter cards in order to have the best visibility on search engines and social media.
 
 /**********************************************************/
 
@@ -36,56 +45,46 @@ https://pixabay.com/en/strawberry-cake-cake-after-594170/ -- Licensed under CC0
 
 All other resources and theme elements are licensed under the [GNU GPL](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html), version 2 or later.
 
-Restaurante Theme WordPress Theme, Copyright 2015 Ketchupthemes.com
+Restaurante Theme WordPress Theme, Copyright 2019 AyeCode Ltd
 Restaurante Theme is distributed under the terms of the GNU GPL
-
-/**********************************************************/
-
 
 = Theme Features Usage =
 All available options can be used from Appearance->Customize
 Theme supports no more than three levels deep navigation.
 
-/**********************************************************/
-
 == TRANSLATIONS ==
 
 There is a language folder within the theme directory and it contains
-the "restaurante.pot" file you can use
-with the WPML, or
+the "restaurante.pot" file you can use with the WPML, or
 the PoEdit software to translate the theme.
-
-/**********************************************************/
 
 == EXTRAS ==
 
 Twitter Bootstrap customize ID : http://getbootstrap.com/customize/?id=f67b423786534a5c0843
 
-/**********************************************************/
+== Changelog ==
 
-== CHANGE LOG ==
-
-= 3.1.0 - 2025-08-TBD =
+= 3.1.0 - 2025-08-11 =
 * XSS vulnerability fix - SECURITY
 
-= Version 3.0.2 =
-- Bug in index.php corrected.
+= 3.0.7 =
+* Minor fixes
+* Added new TGM Plugin activation class
 
-= Version 3.0.3 =
-- Removed wrong links.
-- Added Logo functionality.
+= 3.0.6 =
+* Unused script removed.
+* Added loader
 
-= Version 3.0.4 =
-- Bug fixes.
-- Latest TGM activation class added
+= 3.0.5 =
+* Corrupted zip file fixed.
 
-= Version 3.0.5 =
-- Corrupted zip file fixed.
+= 3.0.4 =
+* Bug fixes.
+* Latest TGM activation class added
 
-= Version 3.0.6 =
-- Unused script removed.
-- Added loader
+= 3.0.3 =
+* Removed wrong links.
+* Added Logo functionality.
 
-= Version 3.0.7 =
-- Minor fixes
-- Added new TGM Plugin activation class
+= 3.0.2 =
+* Bug in index.php corrected.

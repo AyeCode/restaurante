@@ -30,23 +30,11 @@
 <div id="kt-copyright">
     <div class="container">
         <div class="row">
-
-
             <div class="col-md-6">
-
                 <p>
-                    <a rel="nofollow" href="<?php echo esc_url(__(
-                        'http://ketchupthemes.com/restaurante-theme/',
-                        'restaurante')); ?>">
-                        <?php printf(__('Ketchupthemes.com', 'restaurante'));
-                        ?>
-                    </a>,
-                    <?php echo __('&copy;', 'restaurante') . date('Y'); ?>
-                    <?php bloginfo('name'); ?>
-
+                    <a rel="nofollow" href="<?php echo esc_url( __( 'https://wpgeodirectory.com/', 'restaurante' ) ); ?>"><?php printf( __( 'Restaurante Theme', 'restaurante' ) ); ?></a> <?php echo __( '&copy;', 'restaurante' ) . date( 'Y' ); ?> <?php bloginfo( 'name' ); ?>
                 </p>
             </div>
-
 
             <!--- Footer Navigation -->
             <nav class="col-md-6">

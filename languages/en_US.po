@@ -1,10 +1,9 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Restaurante Theme 3.1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-11 17:18+0530\n"
-"PO-Revision-Date: 2025-08-08 10:57+0000\n"
+"PO-Revision-Date: 2025-08-11 17:18+0530\n"
 "Last-Translator: \n"
 "Language-Team: AyeCode Ltd <contact@ayecode.io>\n"
 "Language: en_US\n"
@@ -189,8 +188,7 @@ msgstr[1] ""
 #: framework/ketchup-functions.php:117
 #, php-format
 msgid ""
-"Sorry, but you do not have the correct permissions to update the %1$s "
-"plugin."
+"Sorry, but you do not have the correct permissions to update the %1$s plugin."
 msgid_plural ""
 "Sorry, but you do not have the correct permissions to update the %1$s "
 "plugins."
@@ -564,8 +562,8 @@ msgstr ""
 
 #: framework/libs/class-tgm-plugin-activation.php:3600
 msgid ""
-"The installation and activation process is starting. This process may take "
-"a while on some hosts, so please be patient."
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
 msgstr ""
 
 #: framework/libs/class-tgm-plugin-activation.php:3602
